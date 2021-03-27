@@ -32,4 +32,4 @@ THEN I am taken to the corresponding section of the README
 
 DEMO:
 There is a demo video in the media folder
-[![video demo of readmegen] (./media/demo.gif)]
+[![video demo of readmegen] (/media/demo.gif)]
