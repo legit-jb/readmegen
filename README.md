@@ -2,6 +2,7 @@
 
 DEMO:
 There is a demo video in the media folder
+
 ![video demo of readmegen] (/media/demo.gif)
 
 WHEN I am prompted for information about my application repository
