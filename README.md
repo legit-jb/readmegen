@@ -1,5 +1,9 @@
 # readmegen
 
+DEMO:
+There is a demo video in the media folder
+![video demo of readmegen] (/media/demo.gif)
+
 WHEN I am prompted for information about my application repository
 
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -30,6 +34,4 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 
-DEMO:
-There is a demo video in the media folder
-[![video demo of readmegen] (/media/demo.gif)]
+
