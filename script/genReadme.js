@@ -26,13 +26,13 @@ addLicenseBadge = (license) => {
 // end of addLicenseBadge 
 
 writeLicenseInfo = license => {
-    if (license != "No License") {
+    // if (license != "No License") {
         `## License Info
         License: ${license}`;
-    } else {
-        `## License Info
-        No license used or offered`
-    }
+    // } else {
+    //     `## License Info
+    //     No license used or offered`
+    // }
 }
 // end of writeLicenseinfo function
 
@@ -74,59 +74,59 @@ genReadme = data => {
     For my other projects: [${data.github}](https://github.com/${data.github}/).
 
     ## Tests
-    ${data.tests} 
+    ${data.testing} 
   `;
 }
-var toc = false;
+// var toc = false;
 
 // // checks if the user entered a value for installation
 checkInstallation = check => {
-    if (check == "") {
-        return "";
-    } else {
+    // if (check == "") {
+    //     return "";
+    // } else {
         return `* [Installation](#installation)`
-        toc = true;
-    }
+    //     toc = true;
+    // }
 };
 
 // // checks if the user entered a value for usage
 checkUsage = check => {
-    if (check == "") {
-        return "";
-    } else {
+    // if (check == "") {
+    //     return "";
+    // } else {
         return `* [Use](#usage)`
-        toc = true;
-    }
+    //     toc = true;
+    // }
 };
 
 // // checks if the user entered a value for credits
 checkCredits = check => {
-    if (check == "") {
-        return "";
-    } else {
+    // if (check == "") {
+    //     return "";
+    // } else {
         return `* [Credits](#credits)`
-        toc = true;
-    }
+    //     toc = true;
+    // }
 };
 
 // // checks if the user entered a value for license
 checkLicense = check => {
-    if (check == "No License") {
-        return "";
-    } else {
+    // if (check == "No License") {
+    //     return "";
+    // } else {
         return `* [license] (#License)`
-        toc = true;
-    }
+    //     toc = true;
+    // }
 };
 
 // // checks if the user entered any values for any of the Table of Content items and if they did 
 // // it creates a Table of Contents if they didn't then it doesn't
 checkToC = () => {
-    if (toc) {
+    // if (toc) {
         return `## Table of Contents`;
-    } else {
-        return "";
-    }
+    // } else {
+    //     return "";
+    // }
 };
 
 module.exports = genReadme;
